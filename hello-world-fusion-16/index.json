@@ -1,0 +1,37 @@
+{
+  "title": "Fusion Playground-16GB",
+  "description": "Play with Fusion",
+  "private": true,
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "assets": {
+      "host01": [
+          {"file": "check-fusion.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+      ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Admin UI", "port": 31209}],
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "sfiggins-k8s-fusion-cluster",
+    "port": "31209"
+  }
+}
