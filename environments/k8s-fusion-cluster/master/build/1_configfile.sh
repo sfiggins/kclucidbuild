@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing Helm"
 wget https://get.helm.sh/helm-v3.2.4-linux-amd64.tar.gz
 tar -zxf helm-v3.2.4-linux-amd64.tar.gz
