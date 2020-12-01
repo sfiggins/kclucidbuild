@@ -1,5 +1,3 @@
-#!/bin/bash
-
 docker pull bitnami/kubectl:latest
 docker pull zookeeper:3.5.6
 docker pull solr:8.4.1
