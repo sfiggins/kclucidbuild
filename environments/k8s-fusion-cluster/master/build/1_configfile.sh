@@ -19,7 +19,6 @@ curl -L -o /opt/Electronics.zip https://storage.googleapis.com/fusion-datasets/E
 # curl -L -o /opt/fusion-5.1.2.tgz https://storage.googleapis.com/fusion-datasets/fusion-5.1.2.tgz
 # curl -L -o /opt/lucidworks.fileupload-5.1.2.zip https://storage.googleapis.com/fusion-datasets/lucidworks.fileupload-5.1.2.zip
 
-
 # The configure-environment is run when the environment starts.
 cat <<EOF > /opt/k8s_kubernetes_f5_fusion_values.yaml
 global:
